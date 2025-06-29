@@ -29,6 +29,7 @@ We applied a range of machine learning models, including:
 - SVM
 - K-Nearest Neighbors (KNN)
 - Artificial Neural Network (ANN)
+  
 To improve performance and interpretability, we also applied:
 
 - **Feature selection** via `SelectKBest` and `PCA`
@@ -89,7 +90,7 @@ Bankruptcy-Prediction/
 
 ## 🔗 How to Run
 
-1. Open the notebook on [Google Colab](https://colab.research.google.com/)
+1. Open the notebook on [Google Colab](https://colab.research.google.com/drive/1N_GH2NXbV3RfaR26YIRP4wdZvXPp125l#scrollTo=zI6rIxPX0fZH)
 2. Make sure required libraries are installed (see `requirements.txt`)
 3. Run all cells and explore the visualizations and model results
 
