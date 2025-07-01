@@ -4,7 +4,7 @@ This project aims to build a predictive system for identifying companies at risk
 
 ## Dataset
 
-We use the **Taiwanese Bankruptcy Prediction dataset**, which contains **6819 companies' financial data over a period of 10 years (1999–2009)**. The dataset includes **64 financial ratios**, with the target variable indicating whether the company went bankrupt.
+The **Taiwanese Bankruptcy Prediction dataset** was used in this project, which contains **6819 companies' financial data over a period of 10 years (1999–2009)**. The dataset includes **64 financial ratios**, with the target variable indicating whether the company went bankrupt.
 
 - **Class Imbalance:** Only **3%** of companies in the dataset are labeled as bankrupt, which required handling techniques such as **SMOTE (Synthetic Minority Oversampling Technique)**.
 - **Target Variable:** `Bankrupt?` (1 = Bankrupt, 0 = Not bankrupt)
@@ -18,7 +18,7 @@ The main goals of this project are:
 
 ## Methods and Models
 
-We applied a range of machine learning models, including:
+Applied a range of machine learning models, including:
 
 - Logistic Regression
 - Decision Tree
@@ -28,7 +28,7 @@ We applied a range of machine learning models, including:
 - K-Nearest Neighbors (KNN)
 - Artificial Neural Network (ANN)
   
-To improve performance and interpretability, we also applied:
+To improve performance and interpretability, the following techniques were applied:
 
 - **Feature selection** via `SelectKBest` and `PCA`
 - **Oversampling** using `SMOTE`
@@ -36,7 +36,7 @@ To improve performance and interpretability, we also applied:
 
 ## Evaluation Metrics
 
-Due to the severe class imbalance, **accuracy alone is misleading** (even though some models reached up to **96% accuracy**). Therefore, we focus on:
+Due to the severe class imbalance, **accuracy alone is misleading** (even though some models reached up to **96% accuracy**). Therefore, the main focus was on:
 
 - **Precision** for the bankrupt class (minimizing false positives)
 - **Recall** for the bankrupt class (minimizing false negatives)
@@ -67,16 +67,6 @@ The ROC curves below show each model's ability to distinguish between bankrupt a
 While overall accuracy was high, it does not reflect the model’s ability to detect bankruptcies. The F1-score for class 1 (bankrupt) shows more realistic performance.
 
 ![F1 accuracy](https://github.com/user-attachments/assets/c9ae6694-6d5a-4e75-bd90-89b72c5973e9)
-
-
-## File Structure
-Bankruptcy-Prediction/
-
-│
-
-├── Bankruptcy-Prediction.ipynb # Main Colab notebook
-
-├── README.md # This file
 
 ## References
 
