@@ -70,7 +70,7 @@ While overall accuracy was high, it does not reflect the model’s ability to de
 
 ## References
 
-- [Taiwanese Bankruptcy Dataset](https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data) – UCI Machine Learning Repository
+- [Taiwanese Bankruptcy Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction?resource=download) – UCI Machine Learning Repository
 
 ## Future Work
 
