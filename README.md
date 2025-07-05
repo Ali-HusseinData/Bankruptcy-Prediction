@@ -30,7 +30,7 @@ Applied a range of machine learning models, including:
   
 To improve performance and interpretability, the following techniques were applied:
 
-- **Feature selection** via `SelectKBest` and `PCA`
+- **Feature selection** via `SelectKBest`
 - **Oversampling** using `SMOTE`
 - **Hyperparameter tuning** via GridSearchCV
 
