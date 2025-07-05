@@ -47,9 +47,9 @@ Due to the severe class imbalance, **accuracy alone is misleading** (even though
 
 The top-performing models in predicting bankrupt companies were:
 
-**SVM**: F1-score ≈ **41%**
-**XGBoost**: F1-score ≈ **40%**
-**Random Forest**: F1-score ≈ **40%**
+**Logistic Regression**: F1-score ≈ **49%**
+**XGBoost**: F1-score ≈ **47.5%**
+**Random Forest**: F1-score ≈ **45%**
 
 These results were obtained after applying **SelectKBest** for feature selection, **SMOTE** for handling class imbalance, and **hyperparameter tuning** to optimize model performance.
 
@@ -66,7 +66,8 @@ The ROC curves below show each model's ability to distinguish between bankrupt a
 
 While overall accuracy was high, it does not reflect the model’s ability to detect bankruptcies. The F1-score for class 1 (bankrupt) shows more realistic performance.
 
-![F1 accuracy](https://github.com/user-attachments/assets/c9ae6694-6d5a-4e75-bd90-89b72c5973e9)
+![image](https://github.com/user-attachments/assets/8f27b599-05ee-41eb-bc46-7491e630f8a6)
+
 
 ## References
 
