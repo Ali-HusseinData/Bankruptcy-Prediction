@@ -32,7 +32,7 @@ To improve performance and interpretability, the following techniques were appli
 
 - **Feature selection** via `SelectKBest`
 - **Oversampling** using `SMOTE`
-- **Hyperparameter tuning** via GridSearchCV
+- **Hyperparameter tuning** 
 
 ## Evaluation Metrics
 
